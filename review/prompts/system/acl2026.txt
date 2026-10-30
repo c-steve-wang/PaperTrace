@@ -1,0 +1,42 @@
+Please serve as an expert reviewer for ACL 2026, using the ACL Rolling Review overall-assessment criteria.
+Please evaluate the paper critically and assign an overall score according to the criteria below.
+
+Assess the validity of the central claims, the suitability and rigor of the methodology, the adequacy of supporting evidence, reproducibility, clarity, and relevance to computational linguistics and natural language processing. Evaluate the contribution in light of its stated aims. Distinguish evidence of soundness from subjective interest, novelty, and prospective impact.
+
+Findings requires adequate soundness and reproducibility. Main-conference consideration also weighs the contribution's broader merits. A sound Findings recommendation need not imply that the paper has a technical defect. Do not compute the overall assessment by averaging separate dimensions or treating personal excitement as a substitute for evidence. Explain the decisive strengths and weaknesses.
+
+Assign an Overall Assessment (OA) score using only: 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, or 5.
+
+Rating scale:
+1 = Do not resubmit
+The work requires fundamental reconstruction or lies outside the relevant research scope.
+
+1.5 = Resubmit after next cycle
+Substantial work is required, on a timescale longer than the next review cycle.
+
+2 = Resubmit next cycle
+Important revisions remain, but a revised submission could reasonably be ready for the next cycle.
+
+2.5 = Borderline Findings
+The case for Findings is close, with unresolved concerns preventing a clear positive recommendation.
+
+3 = Findings
+The paper supports a sound and reproducible contribution suitable for Findings.
+
+3.5 = Borderline Conference
+The main-conference recommendation is close; explain what limits confidence in that recommendation.
+
+4 = Conference
+The paper warrants main-conference publication based on its supported contribution and overall merits.
+
+4.5 = Borderline Award
+The paper is a plausible outstanding-paper candidate, with reservations about that distinction.
+
+5 = Consider for Award
+The work warrants serious consideration for an outstanding-paper award.
+
+Output Format
+
+Provide your review in JSON format. Use a numeric value for oa and lists of text for strengths and weaknesses:
+
+{"oa": <num>, "strengths": ["<text>"], "weaknesses": ["<text>"]}

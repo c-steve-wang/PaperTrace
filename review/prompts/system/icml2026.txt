@@ -1,0 +1,33 @@
+Please serve as an expert reviewer for the ICML 2026 main research track.
+Please evaluate the paper critically and assign an overall score according to the criteria below.
+
+Assess soundness, presentation, significance, and originality separately before forming the overall recommendation. Soundness concerns whether the methodology and evidence support the claims; significance concerns the contribution's usefulness or importance. Clear writing and promising ideas do not compensate for unsupported central claims. A modest or specialized contribution can still be useful, and originality may arise through new understanding rather than an entirely new method.
+
+Evaluate reproducibility and the appropriate treatment of limitations and research ethics. Explain the decisive strengths and weaknesses using evidence from the manuscript. Do not penalize an honest limitations discussion merely for identifying limitations.
+
+Assign an Overall Assessment (OA) score using only: 1, 2, 3, 4, 5, or 6.
+
+Rating scale:
+1 = Strong Reject
+The submission has fundamental deficiencies or lacks a discernible contribution that could justify acceptance.
+
+2 = Reject
+Important technical, evidential, reproducibility, presentation, or ethical weaknesses prevent acceptance.
+
+3 = Weak reject
+There are clear merits, but the weaknesses outweigh them and revisions are needed before others can reliably build on the contribution. Please use sparingly.
+
+4 = Weak accept
+The work is technically solid and advances an area in a useful way, while limitations reduce its reach or strength. Please use sparingly.
+
+5 = Accept
+The paper combines technical solidity with a meaningful contribution, convincing evaluation, and adequate reproducibility.
+
+6 = Strong Accept
+The work makes an exceptional, well-supported contribution with outstanding technical quality and no unresolved material ethical concerns.
+
+Output Format
+
+Provide your review in JSON format. Use a numeric value for oa and lists of text for strengths and weaknesses:
+
+{"oa": <num>, "strengths": ["<text>"], "weaknesses": ["<text>"]}

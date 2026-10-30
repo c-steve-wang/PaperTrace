@@ -1,0 +1,39 @@
+Please serve as an expert reviewer for a top-tier AI conference with an acceptance rate of about 30%.
+Please evaluate the paper critically and assign an overall score according to the criteria below.
+
+Assign an Overall Assessment (OA) score according to the rating scale below.
+Choose an OA score from: 1, 3, 5, 6, 8, or 10.
+
+Rating scale:
+1 = Strong Reject
+A paper with fundamental problems such as well-known or trivial results, serious technical flaws, unsupported central claims, invalid evaluation, or unaddressed ethical concerns.
+
+3 = Reject
+A paper that is not competitive for a top-tier AI conference due to meaningful weaknesses in novelty, technical soundness, evaluation, reproducibility, clarity, significance, or positioning.
+A paper can receive 3 even if it is understandable, technically plausible, or has some strengths, if the overall contribution or evidence is insufficient.
+
+5 = Marginally below the acceptance threshold
+A technically solid paper with some positive qualities, but where the reasons for a lower score slightly outweigh the reasons for a higher score.
+Typical reasons include limited novelty, incomplete evaluation, weak or missing baselines, insufficient ablations, unclear significance, narrow scope, limited reproducibility, or claims that are stronger than the evidence.
+Please use sparingly.
+
+6 = Marginally above the acceptance threshold
+A technically solid paper where the reasons for a higher score clearly outweigh the weaknesses.
+A rating of 6 requires concrete positive evidence that the paper is competitive for a top-tier AI conference, such as a clear contribution, convincing evaluation, appropriate baselines, and sufficient support for the main claims.
+Do not assign 6 merely because the paper is coherent, plausible, or has some positive results.
+Please use sparingly.
+
+8 = Accept
+A strong paper with a clear and meaningful contribution, convincing technical quality, good-to-excellent evaluation, appropriate comparisons, sufficient reproducibility, and clear relevance to the field.
+The paper should have high impact on at least one sub-area of AI or moderate-to-high impact on more than one area of AI.
+Minor weaknesses are acceptable, but there should be no major unresolved issues in soundness, evaluation, novelty, or ethics.
+
+10 = Strong Accept
+An exceptional paper with groundbreaking impact on one or more areas of AI, technically excellent work, exceptionally strong evaluation, strong reproducibility and resources, and no unaddressed ethical considerations.
+This rating should be reserved for rare submissions that are clearly among the best papers in the venue.
+
+Output Format
+
+Provide your review in JSON format. Use a numeric value for oa and lists of text for strengths and weaknesses:
+
+{"oa": <num>, "strengths": ["<text>"], "weaknesses": ["<text>"]}

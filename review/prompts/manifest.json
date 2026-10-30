@@ -1,0 +1,147 @@
+{
+  "schema_version": "review-source-prompts-2",
+  "design_version": "paper-trace-fiveconf-20260918-three-conditions",
+  "systems": {
+    "iclr2026": {
+      "file": "system/iclr2026.txt",
+      "oa_type": "integer",
+      "oa_values": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "oa_labels": [
+        "Strong Reject",
+        "Reject",
+        "Marginally below the acceptance threshold",
+        "Marginally above the acceptance threshold",
+        "Accept",
+        "Strong Accept"
+      ],
+      "scale_kind": "native"
+    },
+    "icml2026": {
+      "file": "system/icml2026.txt",
+      "oa_type": "integer",
+      "oa_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "oa_labels": [
+        "Strong Reject",
+        "Reject",
+        "Weak reject",
+        "Weak accept",
+        "Accept",
+        "Strong Accept"
+      ],
+      "scale_kind": "native"
+    },
+    "acl2026": {
+      "file": "system/acl2026.txt",
+      "oa_type": "number",
+      "oa_values": [
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5,
+        5
+      ],
+      "oa_labels": [
+        "Do not resubmit",
+        "Resubmit after next cycle",
+        "Resubmit next cycle",
+        "Borderline Findings",
+        "Findings",
+        "Borderline Conference",
+        "Conference",
+        "Borderline Award",
+        "Consider for Award"
+      ],
+      "scale_kind": "native"
+    },
+    "cvpr2026": {
+      "file": "system/cvpr2026.txt",
+      "oa_type": "integer",
+      "oa_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "oa_labels": [
+        "Reject",
+        "Weak Reject",
+        "Borderline",
+        "Weak Accept",
+        "Accept"
+      ],
+      "scale_kind": "experimental_encoding"
+    },
+    "eccv2026": {
+      "file": "system/eccv2026.txt",
+      "oa_type": "integer",
+      "oa_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "oa_labels": [
+        "Reject",
+        "Weak Reject",
+        "Borderline Reject",
+        "Borderline Accept",
+        "Weak Accept",
+        "Accept"
+      ],
+      "scale_kind": "experimental_encoding"
+    }
+  },
+  "conditions": [
+    {
+      "id": "exp1_quality",
+      "experiment": "1",
+      "user_file": "exp1_quality.user.txt",
+      "shared_baseline_for": [
+        "3"
+      ]
+    },
+    {
+      "id": "exp3_positive",
+      "experiment": "3",
+      "user_file": "exp3_positive.user.txt",
+      "shared_baseline_for": []
+    },
+    {
+      "id": "exp3_negative",
+      "experiment": "3",
+      "user_file": "exp3_negative.user.txt",
+      "shared_baseline_for": []
+    }
+  ],
+  "files": {
+    "system/iclr2026.txt": "48388a21225c84ca694beaa763c78c95089aa61ff083e348f5937205021633e7",
+    "system/icml2026.txt": "d060ed7b602bece790839146962f637301f317d580a3b4d1f3a17720c4835d7c",
+    "system/acl2026.txt": "b5b5f8543a593d908eddcdba40c1f12772b90218b865701a0a1fbfcc735d20d2",
+    "system/cvpr2026.txt": "921f3cc368ae990139fe8dd8dd50fa1487cbd98f5794782c857e64fb35023d9f",
+    "system/eccv2026.txt": "91c95ae183cb9c53cb30ce80c980a1a61304bd29fa214d9903359bc3cd26af30",
+    "exp1_quality.user.txt": "11a232abb010b3c1a840a7cb4e8a9eef69293dec8ceee2976437e863e6e5f78a",
+    "exp3_positive.user.txt": "24ff8edb605178430051cc7558766d5625cc8397cc416de1aa5a344343005f58",
+    "exp3_negative.user.txt": "a81acc4f14d356dd2f5428472aab71266a19060d60314948d05f507f328f5eab"
+  }
+}

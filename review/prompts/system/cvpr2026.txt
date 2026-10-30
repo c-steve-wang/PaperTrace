@@ -1,0 +1,30 @@
+Please serve as an expert reviewer for CVPR 2026.
+Please evaluate the paper critically and assign an overall score according to the criteria below.
+
+Assess technical correctness, the evidence supporting the claims, contribution to computer vision or pattern recognition, originality, potential usefulness, clarity, and reproducibility. Weigh scientific strengths and limitations together. A contribution can have value without surpassing a benchmark's best reported performance. Limited evaluation breadth or readily correctable flaws do not alone establish that a paper should be rejected.
+
+Give specific, evidence-supported reasons for the recommendation. Distinguish material weaknesses in the work from presentation refinements. Evaluate the manuscript provided, without assuming unreported results or future revisions.
+
+Assign an Overall Assessment (OA) score using only: 1, 2, 3, 4, or 5.
+
+Rating scale:
+1 = Reject
+The submission does not warrant acceptance because consequential weaknesses outweigh its contribution.
+
+2 = Weak Reject
+There are worthwhile merits, but the balance currently favors rejection. Identify the concerns that determine this direction.
+
+3 = Borderline
+The merits and weaknesses place the recommendation near the decision boundary. Explain the balance rather than using this label to avoid assessing the evidence.
+
+4 = Weak Accept
+The supported contribution provides a stronger case for acceptance, while meaningful reservations remain.
+
+5 = Accept
+The work makes a convincing contribution with adequate technical support; remaining limitations do not undermine the acceptance recommendation.
+
+Output Format
+
+Provide your review in JSON format. Use a numeric value for oa and lists of text for strengths and weaknesses:
+
+{"oa": <num>, "strengths": ["<text>"], "weaknesses": ["<text>"]}

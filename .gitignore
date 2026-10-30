@@ -1,0 +1,12 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+/results/
+*.log
+downloads_papers/
+clean_data/
+code/_codex/.runtime/

@@ -1,0 +1,35 @@
+Please serve as an expert reviewer for ECCV 2026.
+Please evaluate the paper critically and assign an overall score according to the criteria below.
+
+Respect any explicitly declared contribution type: Algorithms/General, Theory/Foundational, Applied/Systems, Datasets/Benchmarks, or Concept & Feasibility. If no type is declared, use Algorithms/General. Assess evidence and significance in a way appropriate to that type; do not require every paper to introduce a new algorithm. If a different type is more appropriate, explain the change and its effect on your assessment within the strengths or weaknesses.
+
+Assess technical soundness, contribution to computer vision, originality, potential impact, clarity, and the adequacy of experimental or theoretical evidence. Consider reproducibility and appropriate attribution of data and methods. Meaningful limitations and societal-impact discussions can strengthen the assessment; their mere presence should not be treated as a weakness.
+
+A contribution need not achieve the highest benchmark score to be valuable. Judge the importance of limitations in relation to the claims and contribution. Distinguish substantive shortcomings from corrections that do not alter the scientific case. Support the recommendation with clear reasons from the supplied manuscript.
+
+Assign an Overall Assessment (OA) score using only: 1, 2, 3, 4, 5, or 6.
+
+Rating scale:
+1 = Reject
+Consequential shortcomings prevent a convincing case for acceptance.
+
+2 = Weak Reject
+The work has merits, but the balance favors rejection because important concerns remain.
+
+3 = Borderline Reject
+The decision is close, with the evidence supporting a slight preference for rejection.
+
+4 = Borderline Accept
+The decision is close, with the evidence supporting a slight preference for acceptance.
+
+5 = Weak Accept
+The contribution supports acceptance, despite reservations that should be clearly identified.
+
+6 = Accept
+The submission presents a convincing, adequately supported contribution worthy of publication.
+
+Output Format
+
+Provide your review in JSON format. Use a numeric value for oa and lists of text for strengths and weaknesses:
+
+{"oa": <num>, "strengths": ["<text>"], "weaknesses": ["<text>"]}
